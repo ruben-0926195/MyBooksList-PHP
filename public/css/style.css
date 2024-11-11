@@ -1,0 +1,26 @@
+.filterButton:hover {
+  cursor: pointer;
+}
+.status {
+  min-width: 113px;
+}
+/* Custom styles for xs (extra small) */
+@media (max-width: 575.98px) {
+  .book-image-container,
+  .book-description-container,
+  .sign-in,
+  .no-results-container {
+    margin-top: 1rem;
+  }
+  .book-description-container {
+    margin-bottom: 1rem;
+  }
+  .navbar {
+    padding-left: 1.5rem !important;
+  }
+  .status {
+    font-size: 12px !important;
+    white-space: nowrap;
+    min-width: 92px;
+  }
+}
